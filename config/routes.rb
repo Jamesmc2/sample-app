@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "/first_route", controller: "examples", action: "welcome"
+  get "/apple", controller: "examples", action: "apple"
+  get "/star_wars", controller: "examples", action: "star_wars"
 end
